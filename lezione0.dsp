@@ -1,17 +1,13 @@
-// il tasto è un programma di faust
-// faust è un linguaggio di programmazione funzionale
-// dap = digital signal processing
-
 // questo è un commento
 // un commento è una riga di codice ignorata dal compilatore
+// faust è un linguaggio di programmazione funzionale
+// crea applicazioni per il trattamenento digitale
+// dap = digital signal processing
 
+import("stdfaust.lib");// importare la libreria standard di faust
+process = + ; //in ogni programma ci può essere un solo process = 
 
-// importare la libreria standard di faust
-import("stdfaust.lib");
-
-// ogni riga di faust termina con un carattere
-// in ogni programma ci può essere un solo process =
-// gli operatori matematici sono + - * /
-
-process = + ;
+// process =" : scrivere all'interno di "process" e l'unico modo per 
+// fargli eseguire dei processi
+  
 
